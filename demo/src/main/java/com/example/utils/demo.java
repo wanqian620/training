@@ -16,5 +16,7 @@ public class demo {
 
         System.out.println("hotfix: 7777");
 
+        System.out.println("fix: 8888");
+
     }
 }
