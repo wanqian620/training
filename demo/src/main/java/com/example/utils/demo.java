@@ -1,7 +1,9 @@
 package com.example.utils;
 
 public class demo {
+
     public static void main(String[] args) {
+
         System.out.println("feat: 11111");
 
         System.out.println("feat: 2222");
@@ -17,6 +19,8 @@ public class demo {
         System.out.println("hotfix: 7777");
 
         System.out.println("fix: 8888");
+
+        System.out.println("feat: test");
 
     }
 }
