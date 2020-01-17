@@ -29,3 +29,8 @@ hs_err_pid*
 .idea/modules.xml
 .idea/train-demo.iml
 .idea/workspace.xml
+.idea/compiler.xml
+.idea/encodings.xml
+.idea/libraries/
+easyexcel_demo/easyexcel_demo.iml
+websocket_demo/websocket_demo.iml

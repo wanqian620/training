@@ -1,0 +1,26 @@
+server:
+  port: 4001
+
+spring:
+  servlet:
+    multipart:
+      max-file-size: 150MB
+      max-request-size: 150MB
+      file-size-threshold: 60MB
+  application:
+    name: system-reids-server
+  swagger:
+    enable: true
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    password: root
+    timeout: 20000
+
+logging:
+  config: classpath:logback-spring.xml
+  file: log/system_user.log
+  level:
+    #设置包的日志级别
+    com.example.monitor_server: debug
+
