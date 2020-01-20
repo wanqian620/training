@@ -1,0 +1,12 @@
+server:
+  port: 6002
+
+logging:
+  config: classpath:logback-spring.xml
+  level:
+    #设置包的日志级别
+    com.whstone.monitor: debug
+
+feign:
+  hystrix:
+    enabled: true
