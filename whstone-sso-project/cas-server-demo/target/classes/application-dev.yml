@@ -1,0 +1,22 @@
+server:
+  port: 6005
+  servlet:
+    context-path: /sso
+spring:
+  freemarker:
+    suffix: .ftl
+    template-loader-path: classpath:/templates/
+    cache: false
+  cas: #应用访问地址(需要能被认证中心正常访问)
+    service-url: http://127.0.0.1:${server.port}/sso
+    cas-server-url-prefix: http://127.0.0.1:8080/cas  #认证中心服务地址
+    cas-server-login-url: ${spring.cas.cas-server-url-prefix}/login #认证中心登录地址
+    cas-server-logout-url: ${spring.cas.cas-server-url-prefix}/logout #认证中心登出地址
+
+
+logging:
+  config: classpath:logback-spring.xml
+  file: log/patrol-server.log
+  level:
+    #设置包的日志级别
+    com.example.monitor_server: debug
