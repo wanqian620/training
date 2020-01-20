@@ -1,0 +1,64 @@
+server:
+  port: 1005
+
+spring:
+  application:
+    name: whstone-system-oauth
+  redis:
+    database: 0
+    host: 127.0.0.1
+    port: 6379
+    password: root
+    jedis:
+      pool:
+        max-active: 8
+        max-idle: 8
+        min-idle: 0
+    timeout: 100ms
+
+mybatis:
+  type-aliases-package:  com.whstone.domian.user.entity
+  configuration:
+    map-underscore-to-camel-case: true
+  mapper-locations:
+    - classpath:/mapper/**.xml
+pagehelper:
+  helper-dialect: mysql
+  reasonable: false
+  support-methods-arguments: true
+  params: count:countSql
+druid:
+  url: jdbc:mysql://127.0.0.1:3306/ecloud_user?autoReconnect=true&allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8
+  driver-class: com.mysql.jdbc.Driver
+  username: root
+  password: root
+  initialSize: 1
+  min-idle: 1
+  max-active: 20
+  test-on-borrow: true
+logging:
+  config: classpath:logback.xml
+  file: log/system_auth.log
+  level:
+    #设置包的日志级别
+    com.whtone.auth: debug
+
+management:
+  endpoint:
+    health:
+      enabled: true
+
+  # 配置注册中心eureka
+eureka:
+  instance:
+    prefer-ip-address: true
+    #表示eureka client发送心跳给server端的频率。如果在leaseExpirationDurationInSeconds后，server端没有收到client的心跳，则将摘除该instance
+    lease-renewal-interval-in-seconds: 5 #注册服务默认心跳时间为30秒，当一个服务器不可用，需要3个心跳才能让服务器和客户端的元数据相同。生产环境最好使用默认配置。
+    #表示eureka server至上一次收到client的心跳之后，等待下一次心跳的超时时间，在这个时间内若没收到下一次心跳，则将移除该instance
+    lease-expiration-duration-in-seconds: 10 # 续约到期时间（默认90秒）
+  client:
+    healthcheck:
+      enabled: false # 开启健康检查（依赖spring-boot-starter-actuator）
+    serviceUrl:
+      defaultZone: http://localhost:1001/eureka
+    registry-fetch-interval-seconds: 6

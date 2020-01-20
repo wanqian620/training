@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.whstone.oauth</groupId>
+    <artifactId>whstone-oauth-project</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>whstone-system</module>
+        <module>whstone-user-demo</module>
+        <module>whstone-monitor-demo</module>
+    </modules>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.1.7.RELEASE</version>
+        <relativePath/>
+    </parent>
+
+    <properties>
+        <spring-cloud.version>Greenwich.SR2</spring-cloud.version>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <java.version>1.8</java.version>
+        <swagger.version>2.9.2</swagger.version>
+        <fastjson.version>1.2.46</fastjson.version>
+        <commons-lang.version>2.6</commons-lang.version>
+        <mysql.version>5.1.45</mysql.version>
+        <oracle.version>12.1.0.2</oracle.version>
+        <sqlserver.version>6.4.0.jre7</sqlserver.version>
+        <httpclient.version>4.5.3</httpclient.version>
+        <log4j.version>1.2.17</log4j.version>
+        <slf4j-api.version>1.7.25</slf4j-api.version>
+        <jackson-annotations.version>2.9.0</jackson-annotations.version>
+        <sigar.version>1.6.4</sigar.version>
+        <oshi-core.version>3.5.0</oshi-core.version>
+        <druid.version>1.1.13</druid.version>
+        <commons.lang.version>2.6</commons.lang.version>
+        <commons.io.version>2.5</commons.io.version>
+        <commons.codec.version>1.10</commons.codec.version>
+        <commons.configuration.version>1.10</commons.configuration.version>
+        <mybatis.spring.starter>1.3.1</mybatis.spring.starter>
+        <tk.mybatis>1.2.4</tk.mybatis>
+        <pagehelper.version>1.2.3</pagehelper.version>
+        <pagehelper>1.2.3</pagehelper>
+        <pack-name>${project.artifactId}-${project.version}.jar</pack-name>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>${spring-cloud.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+</project>

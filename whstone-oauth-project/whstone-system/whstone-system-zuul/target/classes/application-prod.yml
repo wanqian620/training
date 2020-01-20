@@ -1,0 +1,63 @@
+server:
+  port: 1002
+  maxHttpHeaderSize: 10240000
+  undertow:
+    io-threads: 4
+    worker-threads: 256
+    buffer-size: 1024
+    direct-buffers: true
+    accesslog:
+      dir: /usr/system/user
+      enabled: true
+      pattern: combined
+      prefix: access_log.
+      rotate: true
+      suffix: log
+    max-http-post-size: 10240000
+spring:
+  servlet:
+    multipart:
+      max-file-size: 150MB
+      max-request-size: 150MB
+      file-size-threshold: 60MB
+  application:
+    name: whstone-system-user
+  swagger:
+    enable: true
+  redis:
+    open: true
+    host: 145.170.33.193
+    port: 6379
+    timeout: 20000
+  devtools: # 热部署生效
+    restart:
+      enabled: true
+      exclude: classpath:/mapper/  # 设置不重启的目录
+      additional-paths: src/main/java # 设置重启的目录
+
+mybatis:
+  type-aliases-package:  com.whstone.user.entity
+  configuration:
+    map-underscore-to-camel-case: true
+  mapper-locations:
+    - classpath:/mapper/**.xml
+pagehelper:
+  helper-dialect: mysql
+  reasonable: false
+  support-methods-arguments: true
+  params: count:countSql
+druid:
+  url: jdbc:mysql://127.0.0.1:3306/easy_user?autoReconnect=true&allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8
+  driver-class: com.mysql.jdbc.Driver
+  username: root
+  password: root
+  initialSize: 1
+  min-idle: 1
+  max-active: 20
+  test-on-borrow: true
+logging:
+  config: classpath:logback-spring.xml
+  file: log/system_user.log
+  level:
+    #设置包的日志级别
+    com.example.monitor_server: debug
