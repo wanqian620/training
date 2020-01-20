@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="whstone-api-tools" />
+        <module name="whstone-common-domain" />
+        <module name="whstone-common-feign" />
+        <module name="whstone-common-utils" />
+        <module name="whstone-config-server" />
+        <module name="whstone-inspection-focus" />
+        <module name="whstone-monitor-focus" />
+        <module name="whstone-redis-server" />
+        <module name="whstone-system-eureka" />
+        <module name="whstone-system-user" />
+        <module name="whstone-system-zuul" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="whstone-api-tools (1)" target="1.8" />
+      <module name="whstone-common-redis" target="1.8" />
+      <module name="whstone-ecloud" target="1.8" />
+      <module name="whstone-monitor" target="1.8" />
+      <module name="whstone-monitor-agent" target="1.8" />
+      <module name="whstone-monitor-api" target="1.8" />
+      <module name="whstone-monitor-server" target="1.8" />
+      <module name="whstone-system-aoth" target="1.8" />
+      <module name="whstone-system-auth" target="1.8" />
+      <module name="whstone-system-authorization" target="1.8" />
+      <module name="whstone-system-config" target="1.8" />
+      <module name="whstone-system-oauth" target="1.8" />
+      <module name="whstone-system-redis" target="1.8" />
+      <module name="whstone-tools" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="whstone-api-tools" options="-parameters" />
+      <module name="whstone-api-tools (1)" options="-parameters" />
+      <module name="whstone-common" options="-parameters" />
+      <module name="whstone-common-domain" options="-parameters" />
+      <module name="whstone-common-feign" options="-parameters" />
+      <module name="whstone-common-redis" options="-parameters" />
+      <module name="whstone-common-utils" options="-parameters" />
+      <module name="whstone-config-server" options="-parameters" />
+      <module name="whstone-ecloud" options="-parameters" />
+      <module name="whstone-inspection-focus" options="-parameters" />
+      <module name="whstone-monitor-agent" options="-parameters" />
+      <module name="whstone-monitor-api" options="-parameters" />
+      <module name="whstone-monitor-focus" options="-parameters" />
+      <module name="whstone-monitor-server" options="-parameters" />
+      <module name="whstone-redis-server" options="-parameters" />
+      <module name="whstone-system-aoth" options="-parameters" />
+      <module name="whstone-system-auth" options="-parameters" />
+      <module name="whstone-system-authorization" options="-parameters" />
+      <module name="whstone-system-config" options="-parameters" />
+      <module name="whstone-system-eureka" options="-parameters" />
+      <module name="whstone-system-oauth" options="-parameters" />
+      <module name="whstone-system-redis" options="-parameters" />
+      <module name="whstone-system-user" options="-parameters" />
+      <module name="whstone-system-zuul" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+        PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+
+<generatorConfiguration>
+
+    <!-- 引入外部配置文件 -->
+    <properties resource="init.properties"></properties>
+
+    <!-- 指定数据库连接驱动，如果项目引入了mysql驱动jar，就可以不写 -->
+    <!--<classPathEntry location="..."></classPathEntry>-->
+
+
+    <context id="MysqlContext" targetRuntime="MyBatis3Simple" defaultModelType="flat">
+        <property name="javaFileEncoding" value="UTF-8"/>
+        <property name="beginningDelimiter" value="`"/>
+        <property name="endingDelimiter" value="`"/>
+
+        <!-- 引入插件 tkmapper -->
+        <plugin type="${mapper.plugin}">
+            <property name="mappers" value="${mapper.Mapper}"/>
+        </plugin>
+
+        <!-- 注释 -->
+        <commentGenerator>
+            <property name="suppressDate" value="true"/>
+        </commentGenerator>
+
+        <jdbcConnection driverClass="${jdbc.driverClass}"
+                        connectionURL="${jdbc.url}"
+                        userId="${jdbc.user}"
+                        password="${jdbc.password}">
+        </jdbcConnection>
+        <!--model-->
+        <javaModelGenerator targetPackage="${model.targetPackage}" targetProject="${model.targetProject}"></javaModelGenerator>
+        <!--xml-->
+        <sqlMapGenerator targetPackage="${xml.targetPackage}"  targetProject="${xml.targetProject}"/>
+        <!--mapper-->
+        <javaClientGenerator type="XMLMAPPER" targetPackage="${mapper.targetPackage}"  targetProject="${mapper.targetProject}"/>
+
+        <table tableName="auth_resource" domainObjectName="AuthResourceDO"></table>
+    </context>
+</generatorConfiguration>

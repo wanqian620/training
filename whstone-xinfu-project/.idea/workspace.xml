@@ -1,0 +1,985 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7c04c9ce-4596-4871-92c6-a9409a64892f" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/whstone-tools/target/" />
+    <ignored path="$PROJECT_DIR$/whstone-monitor/whstone-monitor-agent/target/" />
+    <ignored path="$PROJECT_DIR$/whstone-system/whstone-system-config/target/" />
+    <ignored path="$PROJECT_DIR$/whstone-system/whstone-system-eureka/target/" />
+    <ignored path="$PROJECT_DIR$/whstone-monitor/whstone-monitor-server/target/" />
+    <ignored path="$PROJECT_DIR$/whstone-system/target/" />
+    <ignored path="$PROJECT_DIR$/whstone-monitor/target/" />
+    <ignored path="$PROJECT_DIR$/whstone-tools/whstone-api-tools/target/" />
+    <ignored path="$PROJECT_DIR$/whstone-monitor/whstone-monitor-api/target/" />
+    <ignored path="$PROJECT_DIR$/whstone-common/target/" />
+    <ignored path="$PROJECT_DIR$/whstone-common/whstone-api-tools/target/" />
+    <ignored path="$PROJECT_DIR$/whstone-system/whstone-system-redis/target/" />
+    <ignored path="$PROJECT_DIR$/whstone-ecloud/target/" />
+    <ignored path="$PROJECT_DIR$/whstone-system/whstone-system-user/target/" />
+    <ignored path="$PROJECT_DIR$/whstone-system/whstone-system-authorization/target/" />
+    <ignored path="$PROJECT_DIR$/whstone-common/whstone-common-redis/target/" />
+    <ignored path="$PROJECT_DIR$/whstone-common/whstone-common-domain/target/" />
+    <ignored path="$PROJECT_DIR$/whstone-system/whstone-system-aoth/target/" />
+    <ignored path="$PROJECT_DIR$/whstone-system/whstone-system-zuul/target/" />
+    <ignored path="$PROJECT_DIR$/whstone-system/whstone-system-auth/target/" />
+    <ignored path="$PROJECT_DIR$/whstone-monitor/whstone-monitor-focus/target/" />
+    <ignored path="$PROJECT_DIR$/whstone-common/whstone-common-utils/target/" />
+    <ignored path="$PROJECT_DIR$/whstone-system/whstone-system-oauth/target/" />
+    <ignored path="$PROJECT_DIR$/whstone-system/whstone-redis-server/target/" />
+    <ignored path="$PROJECT_DIR$/whstone-system/whstone-config-server/target/" />
+    <ignored path="$PROJECT_DIR$/whstone-common/whstone-common-feign/target/" />
+    <ignored path="$PROJECT_DIR$/whstone-monitor-focus/target/" />
+    <ignored path="$PROJECT_DIR$/whstone-inspection-focus/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/whstone_xinfu_project$MonitorAgentApplication.ic" NAME="MonitorAgentApplication Coverage Results" MODIFIED="1578836020702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.whstone.monitor_agent.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="190" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="whstone-xinfu-project" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>whstone-monitor-api</find>
+      <find>poi</find>
+      <find>hostClient</find>
+      <find>sigar</find>
+      <find>ShiroFilterChainManager</find>
+      <find>shiro-redis</find>
+      <find>UserAuthenticationInfo</find>
+      <find>cacheExpire</find>
+      <find>globalSessionTimeout</find>
+      <find>sessionExpire</find>
+      <find>not_permit</find>
+      <find>securityManager</find>
+      <find>SecurityManager</find>
+      <find>PropertyAccessor</find>
+      <find>max-wai</find>
+      <find>@Override</find>
+      <find>hHasKey</find>
+      <find>lPop</find>
+      <find>hsetWithTime</find>
+      <find>value = &quot;</find>
+      <find>@RequestParam(&quot;key&quot;)</find>
+      <find>@RequestParam(&quot;delta&quot;)</find>
+      <find>jackson</find>
+      <find>ServerException</find>
+      <find>ServiceException</find>
+      <find>expire</find>
+      <find>zSet</find>
+      <find>objectMapper</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>value = &quot;/redis</replace>
+      <replace>ServerException</replace>
+    </replaceStrings>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/whstone-system/whstone-system-user/src/main/java/com/whstone/user/service/impl/RoleServiceImpl.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/whstone-system/whstone-system-zuul/src/main/java/com/whstone/zuul/filter/AccessFilter.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/whstone-system/whstone-system-user/src/main/java/com/whstone/user/service/impl/UserServiceImpl.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/whstone-system/whstone-system-user/src/main/java/com/whstone/user/service/impl/AuthResourceServiceImpl.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/whstone-system/whstone-system-user/src/main/java/com/whstone/user/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/whstone-inspection-focus/src/main/java/com/whstone/inspection/controller/HostController.java" />
+        <option value="$PROJECT_DIR$/whstone-system/whstone-redis-server/src/main/java/com/whstone/redis/service/impl/RedisServiceImpl.java" />
+        <option value="$PROJECT_DIR$/whstone-system/whstone-system-user/src/main/java/com/whstone/user/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/whstone-monitor-focus/src/main/resources/application-dev.yml" />
+        <option value="$PROJECT_DIR$/whstone-system/whstone-config-server/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/whstone-monitor-focus/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/whstone-system/whstone-system-zuul/src/main/resources/application-dev.yml" />
+        <option value="$PROJECT_DIR$/whstone-inspection-focus/src/main/resources/application-dev.yml" />
+        <option value="$PROJECT_DIR$/whstone-system/whstone-system-user/pom.xml" />
+        <option value="$PROJECT_DIR$/whstone-inspection-focus/pom.xml" />
+        <option value="$PROJECT_DIR$/whstone-inspection-focus/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/whstone-system/whstone-system-user/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/whstone-common/whstone-common-feign/src/main/java/com/whstone/common/feign/monitor/fallback/MonitorFallbackFactory.java" />
+        <option value="$PROJECT_DIR$/whstone-common/whstone-common-feign/src/main/java/com/whstone/common/feign/monitor/MonitorClient.java" />
+        <option value="$PROJECT_DIR$/whstone-common/whstone-common-feign/src/main/java/com/whstone/common/feign/redis/fallback/RedisFallbackFactory.java" />
+        <option value="$PROJECT_DIR$/whstone-system/whstone-config-server/src/main/resources/whstone/system-redis-server-dev.yml" />
+        <option value="$PROJECT_DIR$/whstone-system/whstone-config-server/src/main/resources/whstone/whstone-system-zuul-prod.yml" />
+        <option value="$PROJECT_DIR$/whstone-system/whstone-config-server/src/main/resources/whstone/whstone-system-zuul-test.yml" />
+        <option value="$PROJECT_DIR$/whstone-system/whstone-config-server/src/main/resources/whstone/whstone-system-zuul-dev.yml" />
+        <option value="$PROJECT_DIR$/whstone-system/whstone-system-zuul/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/whstone-system/whstone-system-zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/whstone-system/whstone-redis-server/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/whstone-common/whstone-common-feign/src/main/java/com/whstone/common/feign/redis/RedisClient.java" />
+        <option value="$PROJECT_DIR$/whstone-common/whstone-common-feign/src/main/java/com/whstone/common/feign/RedisClient.java" />
+        <option value="$PROJECT_DIR$/whstone-common/whstone-common-feign/src/main/java/com/whstone/common/feign/fallback/RedisFallbackFactory.java" />
+        <option value="$PROJECT_DIR$/whstone-inspection-focus/src/main/java/com/whstone/inspection/InspectionServerApplication.java" />
+        <option value="$PROJECT_DIR$/whstone-monitor-focus/pom.xml" />
+        <option value="$PROJECT_DIR$/whstone-monitor-focus/src/main/java/com/whstone/monitor/MonitorServerApplication.java" />
+        <option value="$PROJECT_DIR$/whstone-system/whstone-config-server/src/main/resources/whstone/whstone-inspection-focus-dev.yml" />
+        <option value="$PROJECT_DIR$/whstone-system/whstone-config-server/src/main/resources/whstone/whstone-inspection-focus-prod.yml" />
+        <option value="$PROJECT_DIR$/whstone-system/whstone-config-server/src/main/resources/whstone/whstone-inspection-focus-test.yml" />
+        <option value="$PROJECT_DIR$/whstone-system/whstone-config-server/src/main/resources/whstone/whstone-monitor-focus-prod.yml" />
+        <option value="$PROJECT_DIR$/whstone-system/whstone-config-server/src/main/resources/whstone/whstone-monitor-focus-test.yml" />
+        <option value="$PROJECT_DIR$/whstone-system/whstone-config-server/src/main/resources/whstone/whstone-redis-server-dev.yml" />
+        <option value="$PROJECT_DIR$/whstone-system/whstone-config-server/src/main/resources/whstone/whstone-redis-server-prod.yml" />
+        <option value="$PROJECT_DIR$/whstone-system/whstone-config-server/src/main/resources/whstone/whstone-redis-server-test.yml" />
+        <option value="$PROJECT_DIR$/whstone-system/whstone-config-server/src/main/resources/whstone/whstone-system-user-dev.yml" />
+        <option value="$PROJECT_DIR$/whstone-system/whstone-config-server/src/main/resources/whstone/whstone-system-user-prod.yml" />
+        <option value="$PROJECT_DIR$/whstone-system/whstone-config-server/src/main/resources/whstone/whstone-system-user-test.yml" />
+        <option value="$PROJECT_DIR$/whstone-system/whstone-system-user/src/main/java/com/whstone/user/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/whstone-system/whstone-system-user/src/main/java/com/whstone/user/UserApplication.java" />
+        <option value="$PROJECT_DIR$/whstone-common/whstone-common-feign/src/main/java/com/whstone/common/feign/fallback/MonitorFallbackFactory.java" />
+        <option value="$PROJECT_DIR$/whstone-monitor-focus/src/main/java/com/whstone/monitor/controller/HostController.java" />
+        <option value="$PROJECT_DIR$/whstone-system/whstone-config-server/src/main/resources/whstone/whstone-monitor-focus-dev.yml" />
+        <option value="$PROJECT_DIR$/whstone-system/whstone-system-user/src/main/java/com/whstone/user/config/WebConfig.java" />
+        <option value="$PROJECT_DIR$/whstone-monitor-focus/src/main/java/com/whstone/monitor/config/WebConfig.java" />
+        <option value="$PROJECT_DIR$/whstone-common/whstone-common-feign/src/main/java/com/whstone/common/feign/MonitorClient.java" />
+        <option value="$PROJECT_DIR$/whstone-monitor-focus/src/main/java/com/whstone/monitor/config/Swagger2.java" />
+        <option value="$PROJECT_DIR$/whstone-inspection-focus/src/main/java/com/whstone/inspection/config/Swagger2.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/tools/maven/apache-maven-3.3.3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="whstone-xinfu-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="whstone-xinfu-project" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579427987978" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../whstone-springCloud-project" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2954023" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$/whstone-common/whstone-common-feign/src/main/java/com/whstone/common/feign/monitor/fallback" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\whstone-xinfu-project\whstone-inspection-focus\src\main\java\com\whstone\inspection\config" />
+      <recent name="F:\whstone-xinfu-project\whstone-monitor-focus\src\main\java\com\whstone\monitor\config" />
+      <recent name="F:\whstone-xinfu-project\whstone-system\whstone-redis-server\src\main\resources" />
+      <recent name="F:\whstone-xinfu-project\whstone-system\whstone-system-zuul\src\main\resources" />
+      <recent name="F:\whstone-xinfu-project\whstone-system\whstone-system-user\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.whstone.inspection.interceptor" />
+      <recent name="com.whstone.inspection.config" />
+      <recent name="com.whstone.inspection.controller" />
+      <recent name="com.example.monitor_server.interceptor" />
+      <recent name="com.whstone.monitor_agent.exception" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.whstone.monitor_agent.exception" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.InspectionServerApplication">
+    <configuration name="UserApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.whstone.user.UserApplication" />
+      <module name="whstone-system-user" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.whstone.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="whstone-config-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.whston.config_server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.whston.config_server.ConfigServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="whstone-system-eureka" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.whstone.eureka.EurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="whstone-system-zuul" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.whstone.zuul.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.whstone.zuul.GatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InspectionServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="whstone-inspection-focus" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.whstone.inspection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.whstone.inspection.InspectionServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MonitorServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="whstone-monitor-focus" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.whstone.monitor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.whstone.monitor.MonitorServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedisServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="whstone-redis-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.whstone.redis.RedisServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="whstone-system-user" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.whstone.user.UserApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.UserApplication" />
+      <item itemvalue="Spring Boot.EurekaServerApplication" />
+      <item itemvalue="Spring Boot.UserApplication" />
+      <item itemvalue="Spring Boot.RedisServerApplication" />
+      <item itemvalue="Spring Boot.GatewayApplication" />
+      <item itemvalue="Spring Boot.ConfigServerApplication" />
+      <item itemvalue="Spring Boot.InspectionServerApplication" />
+      <item itemvalue="Spring Boot.MonitorServerApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.InspectionServerApplication" />
+        <item itemvalue="Spring Boot.ConfigServerApplication" />
+        <item itemvalue="Spring Boot.MonitorServerApplication" />
+        <item itemvalue="Spring Boot.GatewayApplication" />
+        <item itemvalue="Application.UserApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7c04c9ce-4596-4871-92c6-a9409a64892f" name="Default Changelist" comment="" />
+      <created>1575596601847</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575596601847</updated>
+      <workItem from="1575596604982" duration="23000" />
+      <workItem from="1575596674727" duration="21250000" />
+      <workItem from="1575685261222" duration="1531000" />
+      <workItem from="1576116701059" duration="14240000" />
+      <workItem from="1576204291250" duration="10959000" />
+      <workItem from="1576329437321" duration="1611000" />
+      <workItem from="1576458698193" duration="9784000" />
+      <workItem from="1577082500260" duration="4435000" />
+      <workItem from="1577094869252" duration="258000" />
+      <workItem from="1577095151217" duration="464000" />
+      <workItem from="1577150414119" duration="11122000" />
+      <workItem from="1577189504098" duration="6770000" />
+      <workItem from="1577236726038" duration="14957000" />
+      <workItem from="1577280111725" duration="2046000" />
+      <workItem from="1577339937141" duration="1534000" />
+      <workItem from="1577425440810" duration="7647000" />
+      <workItem from="1577526340325" duration="6061000" />
+      <workItem from="1577669402827" duration="7531000" />
+      <workItem from="1577757356428" duration="7200000" />
+      <workItem from="1577782367010" duration="1599000" />
+      <workItem from="1577928159667" duration="10069000" />
+      <workItem from="1578014527227" duration="9553000" />
+      <workItem from="1578117879396" duration="15714000" />
+      <workItem from="1578273889231" duration="21901000" />
+      <workItem from="1578316755077" duration="866000" />
+      <workItem from="1578360458855" duration="7061000" />
+      <workItem from="1578369766343" duration="13699000" />
+      <workItem from="1578446658666" duration="26185000" />
+      <workItem from="1578487087653" duration="8988000" />
+      <workItem from="1578532836925" duration="23810000" />
+      <workItem from="1578575968726" duration="7572000" />
+      <workItem from="1578619071341" duration="19984000" />
+      <workItem from="1578728317727" duration="2001000" />
+      <workItem from="1578833247891" duration="6537000" />
+      <workItem from="1578878206561" duration="388000" />
+      <workItem from="1578878691899" duration="1231000" />
+      <workItem from="1578918184709" duration="8519000" />
+      <workItem from="1578964665426" duration="16855000" />
+      <workItem from="1579006930110" duration="742000" />
+      <workItem from="1579053809093" duration="4293000" />
+      <workItem from="1579137110528" duration="1758000" />
+      <workItem from="1579177589178" duration="927000" />
+      <workItem from="1579324217342" duration="21428000" />
+      <workItem from="1579402174468" duration="16913000" />
+      <workItem from="1579441756500" duration="692000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="381488000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.498366" visible="true" weight="0.35098335" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.501634" side_tool="true" weight="0.37367624" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32843137" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5375817" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.062091503" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32843137" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Spring" order="12" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.16666667" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.18003026" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" weight="0.32980332" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.32980332" />
+      <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.32980332" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.498366" visible="true" weight="0.35098335" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.501634" side_tool="true" weight="0.37367624" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32843137" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5375817" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.062091503" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32843137" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Spring" order="12" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.16666667" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.18003026" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" weight="0.32980332" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.32980332" />
+      <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.32980332" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/whstone-system/whstone-system-user/src/main/java/com/whstone/user/controller/RoleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/whstone-system/whstone-system-user/src/main/java/com/whstone/user/service/RoleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-153">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/whstone-system/whstone-system-user/src/main/java/com/whstone/user/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-178">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/whstone-system/whstone-system-user/src/main/java/com/whstone/user/service/impl/AuthResourceServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/whstone-system/whstone-system-user/src/main/java/com/whstone/user/service/impl/RoleServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-27">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/whstone-system/whstone-system-user/src/main/java/com/whstone/user/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/whstone-system/whstone-config-server/src/main/resources/whstone/whstone-system-user-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-244">
+          <caret line="39" column="22" lean-forward="true" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/github/openfeign/feign-hystrix/10.2.3/feign-hystrix-10.2.3-sources.jar!/feign/hystrix/HystrixInvocationHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="123" selection-start-line="123" selection-end-line="123" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/whstone-monitor-focus/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/whstone-common/whstone-common-feign/src/main/java/com/whstone/common/feign/fallback/MonitorFallbackFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.9.RELEASE/spring-webmvc-5.1.9.RELEASE-sources.jar!/org/springframework/web/servlet/config/annotation/InterceptorRegistration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="78" column="35" selection-start-line="78" selection-start-column="35" selection-end-line="78" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/whstone-inspection-focus/src/main/java/com/whstone/inspection/config/WebConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/whstone-inspection-focus/src/main/java/com/whstone/inspection/config/Swagger2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/whstone-inspection-focus/src/main/java/com/whstone/inspection/config/CorsConfig.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/whstone-monitor-focus/src/main/java/com/whstone/monitor/config/Swagger2.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/whstone-monitor-focus/src/main/java/com/whstone/monitor/config/CorsConfig.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-openfeign-core/2.1.2.RELEASE/spring-cloud-openfeign-core-2.1.2.RELEASE.jar!/org/springframework/cloud/openfeign/FeignClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-482">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/whstone-monitor-focus/src/main/java/com/whstone/monitor/config/WebConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/whstone-monitor-focus/src/main/java/com/whstone/monitor/controller/HostController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="24" column="46" lean-forward="true" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/whstone-system/whstone-system-user/src/main/java/com/whstone/user/config/WebConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="30" column="40" lean-forward="true" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/whstone-monitor-focus/src/main/java/com/whstone/monitor/interceptor/UserAccessApiInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/whstone-common/whstone-common-utils/src/main/java/com/whstone/common/constant/ResponseErrorEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/whstone-inspection-focus/src/main/java/com/whstone/inspection/interceptor/UserAccessApiInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="59" column="52" lean-forward="true" selection-start-line="59" selection-start-column="52" selection-end-line="59" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1725">
+          <caret line="69" column="14" selection-start-line="69" selection-start-column="14" selection-end-line="69" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/whstone-system/whstone-config-server/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/whstone-system/whstone-system-eureka/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/whstone-system/whstone-system-eureka/src/main/resources/application-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/whstone-system/whstone-system-user/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/whstone-inspection-focus/src/main/java/com/whstone/inspection/controller/HostController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="31" column="5" selection-start-line="17" selection-start-column="4" selection-end-line="31" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/whstone-common/whstone-common-feign/src/main/java/com/whstone/common/feign/RedisClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/whstone-inspection-focus/src/main/java/com/whstone/inspection/InspectionServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="15" column="76" selection-start-line="15" selection-start-column="76" selection-end-line="15" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/whstone-inspection-focus/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="55" column="21" selection-start-line="51" selection-start-column="7" selection-end-line="55" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/whstone-system/whstone-config-server/src/main/resources/whstone/whstone-monitor-focus-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="16" selection-start-line="16" selection-end-line="18" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/whstone-common/whstone-common-feign/src/main/java/com/whstone/common/feign/MonitorClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/whstone-common/whstone-common-feign/src/main/java/com/whstone/common/feign/fallback/RedisFallbackFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="10" column="60" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/whstone-monitor-focus/src/main/java/com/whstone/monitor/MonitorServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/whstone-monitor-focus/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="56" column="2" selection-start-line="56" selection-start-column="2" selection-end-line="59" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/whstone-system/whstone-config-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="23" column="21" lean-forward="true" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/whstone-system/whstone-system-zuul/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="36" column="21" selection-start-line="14" selection-start-column="8" selection-end-line="36" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/whstone-system/whstone-system-user/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="67" column="1" lean-forward="true" selection-start-line="67" selection-start-column="1" selection-end-line="71" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/whstone-system/whstone-config-server/src/main/resources/whstone/whstone-inspection-focus-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/whstone-system/whstone-config-server/src/main/resources/whstone/whstone-inspection-focus-prod.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/whstone-system/whstone-config-server/src/main/java/com/whston/config_server/ConfigServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/whstone-system/whstone-config-server/src/main/resources/whstone/whstone-system-zuul-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="19" column="38" lean-forward="true" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/whstone-system/whstone-system-zuul/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/whstone-system/whstone-system-zuul/src/main/java/com/whstone/zuul/filter/AccessFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/whstone-system/whstone-system-user/src/main/java/com/whstone/user/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2432">
+          <caret line="133" column="1" lean-forward="true" selection-start-line="133" selection-start-column="1" selection-end-line="133" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/whstone-system/whstone-system-user/src/main/java/com/whstone/user/UserApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-77">
+          <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/whstone-system/whstone-system-user/src/main/java/com/whstone/user/common/interceptor/UserAccessApiInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-224">
+          <caret line="34" column="47" lean-forward="true" selection-start-line="34" selection-start-column="47" selection-end-line="34" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/whstone-system/whstone-system-user/src/main/java/com/whstone/user/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1993">
+          <caret line="38" column="33" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1273#1274#0" expanded="true" />
+            <element signature="e#1333#1334#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/whstone-common/whstone-common-utils/src/main/java/com/whstone/common/constant/AccessRequired.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2954023" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>whstone-api-tools</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2954023" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="F:\whstone-xinfu-project\whstone-monitor\whstone-monitor-api" />
+    <option value="clean package -Dmaven.test.skip=true" />
+  </component>
+</project>

@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: whstone-eureka-server
+server:
+  port: 1001
+  tomcat:
+    max-threads: 800
+    uri-encoding: UTF-8
+    basedir:
+      /usr/local/whstone/eureka
+    accesslog:
+      enabled: true
+logging:
+  config: classpath:logback.xml
+
+
+eureka:
+  client:
+    register-with-eureka: false #是否将自己注册到Eureka服务中，本身就是所有无需注册
+    fetch-registry: false #是否从Eureka中获取注册信息
+    service-url:  #Eureka客户端与Eureka服务端进行交互的地址
+      defaultZone: http://@localhost:${server.port}/eureka/

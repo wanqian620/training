@@ -1,0 +1,32 @@
+spring:
+  application:
+    name: whstone-inspection-focus
+  profiles:
+    active: dev
+  cloud:
+    config:
+      profile: dev
+      fail-fast: true
+      uri: http://localhost:5001
+      retry:
+        initial-interval: 2000
+        max-attempts: 6
+      discovery:
+        enabled: true
+        service-id: system-config-server
+      allow-override: true
+
+  # 配置注册中心eureka
+eureka:
+  instance:
+    prefer-ip-address: true
+    #表示eureka client发送心跳给server端的频率。如果在leaseExpirationDurationInSeconds后，server端没有收到client的心跳，则将摘除该instance
+    lease-renewal-interval-in-seconds: 5 #注册服务默认心跳时间为30秒，当一个服务器不可用，需要3个心跳才能让服务器和客户端的元数据相同。生产环境最好使用默认配置。
+    #表示eureka server至上一次收到client的心跳之后，等待下一次心跳的超时时间，在这个时间内若没收到下一次心跳，则将移除该instance
+    lease-expiration-duration-in-seconds: 10 # 续约到期时间（默认90秒）
+  client:
+    healthcheck:
+      enabled: false # 开启健康检查（依赖spring-boot-starter-actuator）
+    serviceUrl:
+      defaultZone: http://localhost:1001/eureka
+    registry-fetch-interval-seconds: 6

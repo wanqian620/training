@@ -1,0 +1,37 @@
+server:
+  port: 6001
+spring:
+  application:
+    name: whstone-monitor-focus
+  swagger:
+    enable: true
+
+logging:
+  config: classpath:logback-focus.xml
+  file: log/monitor-server.log
+  level:
+    #设置包的日志级别
+    com.whstone.monitor: debug
+
+#----------------------开启feign支持hystrix
+feign:
+  hystrix:
+    enabled: true
+
+#----------------------超时配置-------------------
+ribbon:
+  ReadTimeout: 3000
+  ConnectTimeout: 3000
+  MaxAutoRetries: 1
+  MaxAutoRetriesNextServer: 2
+  eureka:
+    enabled: true
+hystrix:
+  command:
+    default:
+      execution:
+        timeout:
+          enabled: true
+        isolation:
+          thread:
+            timeoutInMilliseconds: 3500
